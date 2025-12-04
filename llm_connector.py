@@ -26,7 +26,7 @@ class LLMConnector:
             retry_count: 请求失败重试次数
             retry_delay: 重试间隔时间（秒）
         """
-        self.api_key = api_key #"需要替换为你的api接口"
+        self.api_key = "api_key" #需要替换为你的api接口
         self.model_name = model_name
         self.timeout = timeout
         self.retry_count = retry_count
